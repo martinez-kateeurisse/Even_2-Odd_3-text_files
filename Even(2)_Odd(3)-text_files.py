@@ -8,7 +8,7 @@
 #Create a source text file named integers.txt
 
 #Read and open the text files
-with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
+with open("integers.txt") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
     #For each line
     for line in num_file:
         #Convert line to int
