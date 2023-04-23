@@ -28,4 +28,5 @@ with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, op
             #Convert integers to str
             integers = str(integers)
             #Write the result in new text file (triple.txt)
+            triple_file.write(integers + "\n")
 #Outputs will be printed in new text files
