@@ -18,6 +18,7 @@ with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, op
             #Square the integer
             integers = integers**2
             #Convert integers to str
+            integers = str(integers)
             #Write the result in new text file (double.txt)
         #if the integer is odd  
             #Cube the integer
