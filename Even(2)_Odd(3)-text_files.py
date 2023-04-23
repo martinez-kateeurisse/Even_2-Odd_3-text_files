@@ -8,6 +8,7 @@
 #Create a source text file named integers.txt
 
 #Read and open the text files
+with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
     #For each line
         #Convert line to int 
         #If the interger is even
