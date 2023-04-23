@@ -11,7 +11,8 @@
 with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
     #For each line
     for line in num_file:
-        #Convert line to int 
+        #Convert line to int
+        integers = int(line) 
         #If the interger is even
             #Square the integer
             #Convert integers to str
