@@ -14,6 +14,7 @@ with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, op
         #Convert line to int
         integers = int(line) 
         #If the interger is even
+        if (integers % 2) == 0:
             #Square the integer
             #Convert integers to str
             #Write the result in new text file (double.txt)
