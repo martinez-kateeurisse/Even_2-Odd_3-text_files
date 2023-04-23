@@ -20,6 +20,7 @@ with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, op
             #Convert integers to str
             integers = str(integers)
             #Write the result in new text file (double.txt)
+            double_file.write(integers + "\n")
         #if the integer is odd  
             #Cube the integer
             #Convert integers to str
