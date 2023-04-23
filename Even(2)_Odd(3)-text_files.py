@@ -24,6 +24,7 @@ with open("numbers.txt") as num_file, open("double.txt", "w") as double_file, op
         #if the integer is odd
         else:  
             #Cube the integer
+            integers = integers**3
             #Convert integers to str
             #Write the result in new text file (triple.txt)
 #Outputs will be printed in new text files
