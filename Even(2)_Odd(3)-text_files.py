@@ -5,10 +5,17 @@
 #The first output file will be named double.txt, containing the square of all even integers found in integers.txt, 
 #and the second file will be named triple.txt, containing the cube of all odd numbers found in integers.txt.
 
-#Create a source text file named integers.txt
+#Input 20 integers to the text file (user-input)
+
+#Open the main text file named integers.txt
+    #Initialize count
+    #Loop condition
+        #Ask the user for input
+        #Write the input to the text file
+        #Add one to the count
 
 #Read and open the text files
-with open("integers.txt") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
+with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
     #For each line
     for line in num_file:
         #Convert line to int
