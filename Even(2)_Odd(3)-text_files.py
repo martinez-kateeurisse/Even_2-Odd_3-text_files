@@ -5,6 +5,12 @@
 #The first output file will be named double.txt, containing the square of all even integers found in integers.txt, 
 #and the second file will be named triple.txt, containing the cube of all odd numbers found in integers.txt.
 
+#Import certain modules for the program's design and text formatting
+#Print header art for the program
+
+#Ask the user's name and printing a greeting
+#Display the program's instructions
+
 #Input 20 integers to the text file (user-input)
 
 #Open the main text file named integers.txt
