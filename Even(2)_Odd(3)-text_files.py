@@ -13,6 +13,11 @@ import prog_design #own python file
 prog_design.double_triple_header()
 
 #Ask the user's name and printing a greeting
+print("//" * 20)
+name = input(f"{Fore.RED} Enter your name: "+ Fore.RESET)
+print("//"*20, "\n\n") 
+print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") + Back.RESET, "\n")
+
 #Display the program's instructions
 
 #Input 20 integers to the text file (user-input)
