@@ -18,6 +18,7 @@ with open("integers.txt", "w") as num_file:
         #Write the input to the text file
         num_file.write(num_input+"\n")
         #Add one to the count
+        number_count += 1
 
 #Read and open the text files
 with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
