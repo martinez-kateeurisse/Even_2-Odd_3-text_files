@@ -12,6 +12,7 @@ with open("integers.txt", "w") as num_file:
     #Initialize count
     number_count = 1    
     #Loop condition
+    while number_count <= 20:    
         #Ask the user for input
         #Write the input to the text file
         #Add one to the count
