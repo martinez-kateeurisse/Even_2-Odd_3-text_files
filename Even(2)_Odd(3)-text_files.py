@@ -6,6 +6,9 @@
 #and the second file will be named triple.txt, containing the cube of all odd numbers found in integers.txt.
 
 #Import certain modules for the program's design and text formatting
+from colorama import Back, Fore, Style 
+import prog_design #own python file
+
 #Print header art for the program
 
 #Ask the user's name and printing a greeting
