@@ -10,6 +10,7 @@ from colorama import Back, Fore, Style
 import prog_design #own python file
 
 #Print header art for the program
+prog_design.double_triple_header()
 
 #Ask the user's name and printing a greeting
 #Display the program's instructions
