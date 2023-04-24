@@ -32,7 +32,7 @@ with open("integers.txt", "w") as num_file:
     #Loop condition
     while number_count <= 20:    
         #Ask the user for input
-        num_input = input("Please enter an integer: ")
+        num_input = input(f"{Fore.RED}Please enter an integer: " + Fore.RESET) 
         #Write the input to the text file
         num_file.write(num_input+"\n")
         #Add one to the count
