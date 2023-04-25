@@ -99,8 +99,10 @@ def button_click(button_number):
 
 
 #Create a new window
-#Size of the window 
-#Add a title
+root = tk.Tk()
+root.geometry("200x450")  # Size of the window 
+root.title("File Handling - Even, Odd")  # Adding a title
+
 #Add background image
 #Add two buttons to the window (even, odd)
 #Add a label to display output text
