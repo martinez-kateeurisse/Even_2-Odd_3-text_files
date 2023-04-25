@@ -105,6 +105,10 @@ root.title("File Handling - Even, Odd")  # Adding a title
 
 #Add background image
 #Add two buttons to the window (even, odd)
+button1 = tk.Button(root, text="Even", command=lambda: button_click(1), fg="red")
+button1.place(x=80, y=30)
+button2 = tk.Button(root, text="Odd", command=lambda: button_click(2), fg="blue")
+button2.place(x=80, y=60)
 
 #Add a label to display output text
 output_text = tk.StringVar()
