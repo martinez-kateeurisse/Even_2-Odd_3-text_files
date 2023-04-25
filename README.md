@@ -3,7 +3,7 @@
 A Python program that contains a method that will create two separate text files after reading the source text file named integers.txt, which contains 20 integers. The first output file will be named double.txt, containing the square of all even integers found in integers.txt, and the second file will be named triple.txt, containing the cube of all odd numbers found in integers.txt.
 
 ## Program Instructions
-The user will be asked to input the integers; thus, numbers.txt may be created automatically.
+The user will be asked to input the integers; thus, integers.txt may be created automatically.
 
 The output will be written in plain text files that will be created once the program is run, where:      
 
