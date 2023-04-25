@@ -77,7 +77,7 @@ with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_fi
 #Displaying output instructions
 print("="*85)
 print(f"{Fore.LIGHTGREEN_EX} Note: The output of the program will be displayed in a new tkinter window.", "\n" 
-      " And txt files (integer.txt, even.txt, odd.txt) will be created. "+Fore.RESET)
+      " And txt files (integer.txt, double.txt, triple.txt) will be created. "+Fore.RESET)
 print("="*85)
 
 #For output design
@@ -104,6 +104,11 @@ root.geometry("200x450")  # Size of the window
 root.title("File Handling - Even, Odd")  # Adding a title
 
 #Add background image
+canvas = tk.Canvas(root, width=200, height=500)
+image = ImageTk.PhotoImage(Image.open("C:\\Users\\Kate\\Desktop\\OOP\\program.git\\background_image(2).jpg"))
+canvas.create_image(0,0, anchor=NW, image=image)
+canvas.pack()
+
 #Add two buttons to the window (even, odd)
 button1 = tk.Button(root, text="Even", command=lambda: button_click(1), fg="red")
 button1.place(x=80, y=30)
@@ -114,6 +119,7 @@ button2.place(x=80, y=60)
 output_text = tk.StringVar()
 output_label = tk.Label(root, textvariable=output_text)
 output_label.place(x=32, y=100)
+
 #main loop method
 
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
