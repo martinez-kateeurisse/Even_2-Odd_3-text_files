@@ -56,8 +56,9 @@ with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_fi
             #Write the result in new text file (double.txt)
             double_file.write(integers + "\n")
             #Append into a list
+            double_int.append(integers.strip()) 
             #Join as string
-
+            double_string = "\n".join(double_int)
         #if the integer is odd
         else:  
             #Cube the integer
