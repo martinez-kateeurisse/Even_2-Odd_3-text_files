@@ -97,7 +97,6 @@ def button_click(button_number):
         #Display output (Odd)
         output_text.set("Cube of Odd Integers  : \n" + triple_string)
 
-
 #Create a new window
 root = tk.Tk()
 root.geometry("200x450")  # Size of the window 
@@ -121,5 +120,6 @@ output_label = tk.Label(root, textvariable=output_text)
 output_label.place(x=32, y=100)
 
 #main loop method
+root.mainloop()
 
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
