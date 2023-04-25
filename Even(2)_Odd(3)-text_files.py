@@ -89,7 +89,9 @@ from PIL import ImageTk, Image
 #Define the function for buttons
 def button_click(button_number):
     #If button 1
+    if button_number == 1:
         #Display output (even)
+        output_text.set("Square of Even Integers: \n" + double_string)
     #If button 2
         #Display output (Odd)
 
