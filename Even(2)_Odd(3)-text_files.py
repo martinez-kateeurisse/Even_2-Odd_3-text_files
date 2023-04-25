@@ -75,6 +75,10 @@ with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_fi
 #Outputs will be printed in new text files
 
 #Displaying output instructions
+print("="*85)
+print(f"{Fore.LIGHTGREEN_EX} Note: The output of the program will be displayed in a new tkinter window.", "\n" 
+      " And txt files (integer.txt, even.txt, odd.txt) will be created. "+Fore.RESET)
+print("="*85)
 
 #For output design
 #Import modules
