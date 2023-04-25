@@ -87,7 +87,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 #Define the function for buttons
-#Define the function for button clicks
+def button_click(button_number):
     #If button 1
         #Display output (even)
     #If button 2
