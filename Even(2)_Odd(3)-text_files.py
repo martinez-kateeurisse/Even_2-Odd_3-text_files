@@ -40,6 +40,7 @@ with open("integers.txt", "w") as num_file:
 
 #Read and open the text files
 with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
+    #Initialize lists
     #For each line
     for line in num_file:
         #Convert line to int
@@ -52,6 +53,9 @@ with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_fi
             integers = str(integers)
             #Write the result in new text file (double.txt)
             double_file.write(integers + "\n")
+            #Append into a list
+            #Join as string
+
         #if the integer is odd
         else:  
             #Cube the integer
@@ -60,4 +64,30 @@ with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_fi
             integers = str(integers)
             #Write the result in new text file (triple.txt)
             triple_file.write(integers + "\n")
+            #Append into a list
+            #Join as string
+
 #Outputs will be printed in new text files
+
+#Displaying output instructions
+
+#For output design
+#Import modules
+
+#Define the function for buttons
+#Define the function for button clicks
+    #If button 1
+        #Display output (even)
+    #If button 2
+        #Display output (Odd)
+
+#Create a new window
+#Size of the window 
+#Add a title
+#Add background image
+#Add two buttons to the window (even, odd)
+#Add a label to display output text
+
+#main loop method
+
+#Output will also be displayed in the tkinter window.(Aside from the txt files)
