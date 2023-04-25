@@ -41,6 +41,8 @@ with open("integers.txt", "w") as num_file:
 #Read and open the text files
 with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_file, open("triple.txt", "w") as triple_file:
     #Initialize lists
+    double_int = []
+    triple_int = []     
     #For each line
     for line in num_file:
         #Convert line to int
