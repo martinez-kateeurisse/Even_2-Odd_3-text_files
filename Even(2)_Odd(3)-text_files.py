@@ -105,8 +105,11 @@ root.title("File Handling - Even, Odd")  # Adding a title
 
 #Add background image
 #Add two buttons to the window (even, odd)
-#Add a label to display output text
 
+#Add a label to display output text
+output_text = tk.StringVar()
+output_label = tk.Label(root, textvariable=output_text)
+output_label.place(x=32, y=100)
 #main loop method
 
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
