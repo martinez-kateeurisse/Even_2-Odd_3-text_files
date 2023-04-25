@@ -32,7 +32,7 @@ with open("integers.txt", "w") as num_file:
     #Loop condition
     while number_count <= 20:    
         #Ask the user for input
-        num_input = input(f"{Fore.RED}Please enter an integer: " + Fore.RESET) 
+        num_input = input(f"{Fore.RED} Please enter an integer: " + Fore.RESET) 
         #Write the input to the text file
         num_file.write(num_input+"\n")
         #Add one to the count
@@ -103,7 +103,7 @@ root.geometry("200x450")  # Size of the window
 root.title("File Handling - Even, Odd")  # Adding a title
 
 #Add background image
-canvas = tk.Canvas(root, width=200, height=500)
+canvas = tk.Canvas(root, width=1000, height=1500)
 image = ImageTk.PhotoImage(Image.open("C:\\Users\\Kate\\Desktop\\OOP\\program.git\\background_image(2).jpg"))
 canvas.create_image(0,0, anchor=NW, image=image)
 canvas.pack()
