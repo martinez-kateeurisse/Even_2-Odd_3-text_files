@@ -82,6 +82,9 @@ print("="*85)
 
 #For output design
 #Import modules
+import tkinter as tk
+from tkinter import *
+from PIL import ImageTk, Image
 
 #Define the function for buttons
 #Define the function for button clicks
