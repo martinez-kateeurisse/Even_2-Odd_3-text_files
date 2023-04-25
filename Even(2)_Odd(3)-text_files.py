@@ -68,7 +68,9 @@ with open("integers.txt", "r") as num_file, open("double.txt", "w") as double_fi
             #Write the result in new text file (triple.txt)
             triple_file.write(integers + "\n")
             #Append into a list
+            triple_int.append(integers.strip())
             #Join as string
+            triple_string = "\n".join(triple_int) 
 
 #Outputs will be printed in new text files
 
