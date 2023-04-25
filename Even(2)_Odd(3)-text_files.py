@@ -93,7 +93,10 @@ def button_click(button_number):
         #Display output (even)
         output_text.set("Square of Even Integers: \n" + double_string)
     #If button 2
+    elif button_number == 2:
         #Display output (Odd)
+        output_text.set("Cube of Odd Integers  : \n" + triple_string)
+
 
 #Create a new window
 #Size of the window 
